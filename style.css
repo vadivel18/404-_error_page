@@ -1,0 +1,60 @@
+body{
+    height: 100vh;
+}
+
+header{
+    font-family:"Inconsolata", monospace;   
+    font-size: 15px;
+    padding-left: 4rem;
+    padding-top: 3rem;
+    height: 15vh;
+    color: #333333;
+}
+
+main{
+    height: 80vh;
+    padding: 5rem;
+    font-family:Space Mono;  
+}
+.media{
+    width: 39%;
+    display: inline-block;
+}
+
+img{
+    height: 350px;
+    float: right;
+}
+
+.content{
+    width: 60%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 100px;
+}
+
+.content h1{
+    font-size: 50px;
+}
+
+.content p{
+    margin-top: 25px;
+    font-size: 20px;
+    color: rgb(62, 59, 59);
+    margin-bottom: 40px;
+}
+
+.content a{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    padding: 10px  15px 10px 15px;
+    font-size: 15px;
+}
+
+footer{
+    height: 5vh;
+    text-align: center;
+    color: grey;
+    font-size: 13px; 
+}
